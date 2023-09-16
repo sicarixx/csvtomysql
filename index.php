@@ -23,9 +23,9 @@
                     </div>
                     <div>
                     <?php
-                        if(isset($_GET['success'])):
+                        if(isset($_GET['success'])) {
                             ?><div class="alert alert-success" role="alert">File upload was successful!</div><?php
-                        endif;
+                        }
                     ?>
                     </div>
                 </form>
